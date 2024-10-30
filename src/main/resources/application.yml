@@ -1,0 +1,23 @@
+server:
+  port: 8081
+  error:
+    include-message: always
+#Configuracion de spring
+spring:
+  #Configuracion de migracion
+  flyway:
+    enabled: true
+    baselineVersion: 1
+    locations: classpath:db/migration
+    sqlMigrationSuffixes: .sql
+    baselineOnMigrate: true
+    sqlMigrationPrefix: V
+    schemas: public
+    jpa:
+       open-in-view:false
+
+  datasource:
+    url: jdbc:postgresql://ep-sweet-bar-a56c6n01.us-east-2.aws.neon.tech:5432/customerdb
+    username: neondb_owner
+    password: ixZFp82JnHcm
+    driverClassName: org.postgresql.Driver
