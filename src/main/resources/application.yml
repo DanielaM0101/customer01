@@ -17,7 +17,7 @@ spring:
        open-in-view:false
 
   datasource:
-    url: jdbc:postgresql://ep-sweet-bar-a56c6n01.us-east-2.aws.neon.tech:5432/customerdb
+    url: jdbc:postgresql://ep-jolly-brook-a52uzwcf.us-east-2.aws.neon.tech:5432/neondb
     username: neondb_owner
-    password: ixZFp82JnHcm
+    password: 6SZkvbzrFg5U
     driverClassName: org.postgresql.Driver
