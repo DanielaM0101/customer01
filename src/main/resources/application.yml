@@ -6,6 +6,7 @@ server:
 spring:
   #Configuracion de migracion
   flyway:
+    repair: true
     enabled: true
     baselineVersion: 1
     locations: classpath:db/migration
